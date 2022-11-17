@@ -1,0 +1,11 @@
+syntax = "proto3";
+  message root{
+    message rows{
+      string col1 = 1;
+      string col2 = 2;
+      string col3 = 3;
+      string col4 = 4;
+      string col5 = 5;
+      repeated rows Rows = 6;
+      };
+    };
